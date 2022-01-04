@@ -1,7 +1,6 @@
 google.charts.load("current", {packages:["corechart"]});
 google.charts.setOnLoadCallback(drawChart);
 
-var ftoken = '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';
 
 function handleToken()
 {
