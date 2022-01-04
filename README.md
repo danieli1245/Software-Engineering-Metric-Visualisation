@@ -10,5 +10,6 @@ My implementation of extracting data from the GitHub API, and Visualising the da
 ## Usage
 1. To use the page, you will need to generate a Github personal access token which can be generated at: https://github.com/settings/tokens
 2. After entering your token, you may enter any Github username to generate graphs
+3. To search a new queary click the title "Github API Project" or refresh the page
 
 Note: If the page is giving errors such as `Data column(s) for axis #0 cannot be of type string` please double check your Github Token is entered correctly
