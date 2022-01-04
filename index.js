@@ -1,6 +1,7 @@
 google.charts.load("current", {packages:["corechart"]});
 google.charts.setOnLoadCallback(drawChart);
 
+var ftoken = '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';
 
 function handleToken()
 {
@@ -190,7 +191,7 @@ async function drawLanguageChart(myData){
   );
 
   var options = {
-    title: "Bytes written per Language",
+    title: "Bytes of code per Language",
     pieHole: 0.4
   };
 
