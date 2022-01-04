@@ -18,7 +18,7 @@
 <body>
     
     <div style="align-items: center; text-align: center;">
-        <h1 style ="align-items: center; color: white;"> Github API Project</h1>
+        <h1 style ="align-items: center; color: white;" onclick="document.location.reload()"> Github API Project</h1>
         
     </div>
     
@@ -36,18 +36,42 @@
   <button type="button" onclick="handleInput()" >Search</button>
 </form>
 <!-- partial -->
-<div id="charts" >
 
-  <section id="chart1" style="width:800px; height: 500px; padding-top:25px; padding-bottom: 25px; margin:0 auto">
+
+<div style="align-items: center; text-align: center;">
+    <div> <img id="myImg" src="https://htmlcolorcodes.com/assets/images/colors/white-color-solid-background-1920x1080.png" alt="Avatar" class="avatar">
+    </div>
+    <div>
+<p1 id="userfield" style =" color: white;">Username:</p1>
+    </div>
+    <div>
+    <p1 id="reposfield" style =" color: white;">Public Repos:</p1>
+    </div>
+
+<div>
+<p1 id="followersfield" style =" color: white;">Followers:</p1>
+</div>
+<div>
+<p1 id="followingfield" style =" color: white;">Following:</p1>
+</div>
+
+</div>
+
+<div id="charts" >
+    
+    
+    
+
+  <section id="chart3" style="width:800px; height: 500px; padding-top:60px; padding-bottom: 25px; margin:0 auto">
       <div style="align-items: center; text-align: center;">
       <h2 style =" color: white;" id="loader1"></h2>
       </div>
     
   </section><br><br>
 
-  <section id="chart2" style="width:800px; height:500px; padding-top:25px; padding-bottom: 25px; margin:0 auto"></section><br><br>
+  <section id="chart1" style="width:800px; height:500px; padding-top:25px; padding-bottom: 25px; margin:0 auto"></section><br><br>
 
-  <section id="chart3" style="width:800px; height:500px; padding-top:25px; padding-bottom: 60px; margin:0 auto"></section>
+  <section id="chart2" style="width:800px; height:500px; padding-top:25px; padding-bottom: 60px; margin:0 auto"></section>
   </div>
   
 </body>
